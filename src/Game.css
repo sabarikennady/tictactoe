@@ -1,0 +1,80 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    border: 2px solid  rgb(11, 132, 145);
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px  rgb(11, 132, 145);
+  }
+  
+  .game-board {
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #999;
+    background-color:  rgb(11, 132, 145);
+    cursor: pointer;
+  }
+  
+
+.x-mark {
+    color: #c7d7e4; 
+  }
+  
+  .o-mark {
+    color: #ec6ead; 
+  }
+  
+  .status {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .restart-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .restart-button:hover {
+    background-color: #45a049;
+  }
+  
+  .restart-button:active {
+    background-color: #3e8e41;
+  }
+  

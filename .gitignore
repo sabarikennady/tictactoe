@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.next/
+dist/
+out/
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+.bower_components/
+
+# Miscellaneous
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.pid
+
+# Linting
+.eslintcache
+
+# Package lock files (if you use Yarn or NPM lock exclusively)
+package-lock.json
+yarn.lock
